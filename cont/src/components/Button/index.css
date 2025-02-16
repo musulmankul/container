@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.my-button {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.my-button--primary {
+  background: #006fee;
+  color: white;
+}
+.my-button--primary:hover {
+  background: #024694;
+}
+.my-button--bordered {
+  border: 1px solid #006fee;
+  color: #006fee;
+  background: white;
+}
+.my-button--bordered:hover {
+  background: #006fee;
+  color: white;
+}
+.my-button--sm {
+  min-width: 100px;
+  height: 32px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button--md {
+  min-width: 120px;
+  height: 40px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.my-button--lg {
+  min-width: 150px;
+  height: 48px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my-button--disabled {
+  background: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.my-button--disabled:hover {
+  background: #e0e0e0;
+  color: #a0a0a0;
+}

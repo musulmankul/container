@@ -1,0 +1,90 @@
+.product-card {
+    width: 320px;
+    height: 468px;
+    padding: 16px;
+    border: 1px solid #eeeeee;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+
+  }
+.Main{
+  width: 288px;
+  height: 373px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+img{
+  object-fit: contain;
+}
+
+.Text{
+  width: 288px;
+  height: 44px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 21.78px;
+  color: black;
+}
+.Category{
+  min-width: 100px;
+  height: 17px;
+  font-size: 14px;
+  font-weight: 500;
+  color: royalblue;
+  text-transform: capitalize;
+
+}
+.Title{
+  width: 288px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Footer{
+  width: 288px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Price{
+  width: 96px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #000000;
+}
+button{
+  width: 141px;
+  height: 39px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 12px 10px 12px;
+  gap: 10px;
+  background: royalblue;
+  color: white;
+  font-size: 16px;
+  line-height: 19.36px;
+  font-weight: 500px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover{
+  border: 1px solid royalblue;
+  transform: scale(1.02);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+}
+
+button:hover{
+  transform: scale(1.1);
+  
+}
