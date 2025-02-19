@@ -60,7 +60,7 @@ function App() {
         </Button>
       </div>
       <div className="lst">
-      {loading && <div className="spinner"> <img src="https://cdn-icons-png.flaticon.com/512/480/480394.png" width='50px' alt="Loading..." /></div>}
+      {loading && <div className="load"> <img src="https://static.vecteezy.com/system/resources/thumbnails/042/600/457/small_2x/loading-circles-flat-style-modern-preloaders-png.png" width='50px' alt="Loading..." /></div>}
       {filteredProducts.map((product) => (
         <ProductCard key={product.id} data={product} />
       ))}

@@ -38,7 +38,7 @@ code {
 }
 
 
-.spinner img {
+.load img {
   animation: spin 1s linear infinite;
 }
 
